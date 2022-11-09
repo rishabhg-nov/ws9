@@ -1,0 +1,23 @@
+Script started on 2022-11-09 00:17:19-05:00
+]0;rishabh@sjsu:/mnt/scratch/rishabh/lastWS9[rishabh@sjsu lastWS9]$ 
+]0;rishabh@sjsu:/mnt/scratch/rishabh/lastWS9[rishabh@sjsu lastWS9]$ 
+]0;rishabh@sjsu:/mnt/scratch/rishabh/lastWS9[rishabh@sjsu lastWS9]$ var=`echo $(($RANDOM % 100))`
+]0;rishabh@sjsu:/mnt/scratch/rishabh/lastWS9[rishabh@sjsu lastWS9]$ 
+]0;rishabh@sjsu:/mnt/scratch/rishabh/lastWS9[rishabh@sjsu lastWS9]$ 
+]0;rishabh@sjsu:/mnt/scratch/rishabh/lastWS9[rishabh@sjsu lastWS9]$ echo $var
+82
+]0;rishabh@sjsu:/mnt/scratch/rishabh/lastWS9[rishabh@sjsu lastWS9]$ 
+]0;rishabh@sjsu:/mnt/scratch/rishabh/lastWS9[rishabh@sjsu lastWS9]$ 
+]0;rishabh@sjsu:/mnt/scratch/rishabh/lastWS9[rishabh@sjsu lastWS9]$ head -n 1000 amazon_reviews_us_Books_v1_02.tsv > subsetFile
+]0;rishabh@sjsu:/mnt/scratch/rishabh/lastWS9[rishabh@sjsu lastWS9]$ 
+]0;rishabh@sjsu:/mnt/scratch/rishabh/lastWS9[rishabh@sjsu lastWS9]$ 
+]0;rishabh@sjsu:/mnt/scratch/rishabh/lastWS9[rishabh@sjsu lastWS9]$ ./randomsample.sh $var subsetFile | wc -l
+820
+]0;rishabh@sjsu:/mnt/scratch/rishabh/lastWS9[rishabh@sjsu lastWS9]$ 
+]0;rishabh@sjsu:/mnt/scratch/rishabh/lastWS9[rishabh@sjsu lastWS9]$ 
+]0;rishabh@sjsu:/mnt/scratch/rishabh/lastWS9[rishabh@sjsu lastWS9]$ history > cmds.log
+]0;rishabh@sjsu:/mnt/scratch/rishabh/lastWS9[rishabh@sjsu lastWS9]$ 
+]0;rishabh@sjsu:/mnt/scratch/rishabh/lastWS9[rishabh@sjsu lastWS9]$ 
+]0;rishabh@sjsu:/mnt/scratch/rishabh/lastWS9[rishabh@sjsu lastWS9]$ exit
+
+Script done on 2022-11-09 00:18:58-05:00

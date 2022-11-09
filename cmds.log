@@ -1,0 +1,5 @@
+  987  var=`echo $(($RANDOM % 100))`
+  988  echo $var
+  989  head -n 1000 amazon_reviews_us_Books_v1_02.tsv > subsetFile
+  990  ./randomsample.sh $var subsetFile | wc -l
+  991  history > cmds.log
